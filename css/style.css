@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: #000022;
+
+}
+nav.menu{
+    height: 75px;
+    background-color: #464866;
+/*    margin: 0;*/
+}
+nav{
+    width: 100%;
+    height: 100%;
+/*    margin: 0;*/
+}
+.menu .side_draw{
+    position: fixed;
+    height: calc(100% - 0px);
+    transition: all 0.3s ease;
+    width: 250px;
+/*    background-color: mediumpurple;*/
+}
+
+.menu .side_draw ul{
+    margin-top: 110px;
+    padding-left: 0;
+    text-align: center;
+}
+.menu .side_draw ul li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 30px 20px 30px;
+    display: none;
+    border-bottom: 2px solid #aaabb8;
+}
+.menu .side_draw ul li a{
+    text-decoration: none;
+    color: #aaabb8;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.menu .side_draw ul li:hover {
+    background-color: #000022;
+    color: #000022;
+}
+
+
+
+i.fa.fa-bars{
+    color: #aaabb8;
+    font-size: 36px;
+    margin: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+i.fa.fa-sign-out{
+    font-size: 45px;
+    margin: 5px;
+    position: absolute;
+    right: 5px;
+    color: #aaabb8;
+    top: 10px;
+}
+
+.menu.shrink .side_draw{
+    width: 500px;
+    background-color: #464866;
+    box-shadow:4px 1px 11px -2px #000000;
+
+/*    transition: all 0.5s ease;*/
+        
+}
+.menu.shrink .side-draw ul li a{
+    text-align: center;
+}
+
+.menu.shrink ul li{
+    display: block;
+/*    transition: all 0.9s ease;*/
+}
+
+i.fa.fa-plus-circle{
+    font-size: 55px;
+    color: #aaabb8;
+    position: absolute;
+    right: 2px;
+    bottom: 100px;
+    margin: 20px;
+}
+
+footer div.bottom{
+    height: 75px;
+    width: 100%;
+    background-color: #464866;
+    position: absolute;
+    bottom: 0;
+}
